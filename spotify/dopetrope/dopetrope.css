@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro' Arial, Helvetica, sans-serif;
+}
+#nav{
+    border : 2px solid;
+    height: 70px;
+    background-color: rgba(55,61,73,0.975);
+    color: #fff;
+
+}
+#sub-nav{
+    border: 2px solid;
+    height: inherit;
+    width: 98%;
+    margin: auto;
+    
+}
+#sub-nav h1{
+    font-size: -1.25em;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+#sub-nav div{
+    border: 1px solid #dee0e3;
+    border-radius: 8px;
+    width: 470px;
+    position: absolute;
+    left: 150px;
+    top: -4px;
+
+} 
+#sub-nav div button{
+    padding: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    background-color: rgba(55,61,73,0.975);
+    color: #fff;
+    border: none;
+}
+#sub-nav div button:hover{
+    background-color: red;
+}
